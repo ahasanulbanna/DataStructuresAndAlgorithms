@@ -11,6 +11,14 @@ namespace DataStructuresAndAlgorithmsPractices
     {
         static void Main(string[] args)
         {
+            LinqEx linqEx = new LinqEx();
+            linqEx.shortWord();
+            DuplicateChecker duplicateChecker = new DuplicateChecker();
+            duplicateChecker.arrDuplicateChecker();
+            Sorting sorting = new Sorting();
+            sorting.arraySort();
+
+
             NodeLink lnk = new NodeLink();
             lnk.AddFirst("First");
             lnk.AddLast("A");
